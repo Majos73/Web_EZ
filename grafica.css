@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Exo2Light';
+    src: url('/assets/fonts/exo-2/538ac351c1d0dc13b658625894646805/0de9e16ddeef7c494d05716360896f66/Exo2Light.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+body {
+    font-family: 'Exo2Light';
+    height: 500vh;
+    margin: auto;
+    background: rgba(3, 3, 3, 0.972);
+}
+
+
+section {
+    height: 20%;
+    scroll-snap-align: start;
+}
+
+
+#us {
+    background-color: blue;
+}
+
+#services {
+    background-color: yellow;
+}
+
+#works {
+    background-color: green;
+}
+
+#contact {
+    background-color: red;
+}
+
+.circle {
+    border-radius: 0% 0% 78% 38% / 0% 0% 100% 7%;
+    height: 24vw;
+    width: 36vw;
+    background-color: white;
+}
+
+img.logo {
+    transform: translateY(-10%);
+    margin-left: 8%;
+    height: 27vw;
+    width: 27vw;
+}
+
+nav {
+    width: 65vw;
+    height: 10vw;
+    background: rgba(173, 173, 173, 0.397);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+li {
+    position: relative;
+    display: inline;
+    top: 25%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
